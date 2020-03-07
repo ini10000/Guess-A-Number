@@ -11,7 +11,7 @@ import {
 
 import BodyText from "../components/BodyText";
 import TitleText from "../components/TitleText";
-import MainButton from "../components/MainButton";
+import MainButton from "../components/MainButton.ios";
 import Colors from "../constants/colors";
 
 const GameOverScreen = props => {
@@ -49,7 +49,8 @@ const styles = StyleSheet.create({
   screen: {
     flex: 1,
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
+    paddingVertical: 10
   },
   imageContainer: {
     borderRadius: (Dimensions.get("window").width * 0.7) / 2,
